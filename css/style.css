@@ -4,19 +4,30 @@
     box-sizing: border-box;
 }
 
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 .container {
     width: 80%;
     max-width: 1200px;
     margin: 1em auto;
 }
 
+/* header */
 .header {
     background-color: violet;
     height: 100px;
 }
 
+/* main */
 .jumbotron {
     height: 400px;
     margin: 1em 0;
     background-color: yellow;
+}
+.main-container {
+    float: left;
 }
