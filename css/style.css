@@ -31,6 +31,7 @@
 
 .main-container {
     background-color: blue;
+    margin-bottom: 10px;
 }
 
 .main-container-header{
@@ -49,4 +50,10 @@
 .col-central {
     width: calc(50% - 30px);
     margin: 0 15px;
+}
+
+/* footer */
+.footer {
+    height: 50px;
+    background-color: purple;
 }
