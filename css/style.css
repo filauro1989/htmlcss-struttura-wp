@@ -28,16 +28,25 @@
     margin: 1em 0;
     background-color: yellow;
 }
+
+.main-container {
+    background-color: blue;
+}
+
 .main-container-header{
     height: 80px;
     background-color: lightblue;
+    margin-bottom: 15px;
 }
+
 .col {
     width: 25%;
     height: 400px;
     background-color: lightblue;
     float: left;
+    margin-bottom: 15px;
 }
 .col-central {
-    width: 50%;
+    width: calc(50% - 30px);
+    margin: 0 15px;
 }
