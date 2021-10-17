@@ -28,6 +28,16 @@
     margin: 1em 0;
     background-color: yellow;
 }
-.main-container {
+.main-container-header{
+    height: 80px;
+    background-color: lightblue;
+}
+.col {
+    width: 25%;
+    height: 400px;
+    background-color: lightblue;
     float: left;
+}
+.col-central {
+    width: 50%;
 }
